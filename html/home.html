@@ -10,7 +10,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/app2.css">
 
@@ -19,9 +22,9 @@
   
   <body style="background-color: white; margin: 0;">
     <nav id="mainNavbar" class="navbar navbar-dark bg-none navbar-expand-md fixed-top">
-      <a href="#" class="navbar-brand p-2 m-2">Bentley Consulting Group</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <a href="#" id="logo" class="navbar-brand p-2 m-2">Bentley Consulting Group</a>
+      <button id="navbarToggler" class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+        <span><i id="navbarIcon" class="fa fa-align-justify navbar-icon"></i></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navLinks">
         <ul class="navbar-nav">
@@ -48,6 +51,7 @@
       <h1 class="display-3 p-5 m-5 d-sm-none d-lg-block d-xl-none">Bentley Consulting Group</h1>
       <h1 class="display-1 p-5 m-5 d-md-none d-lg-block"></h1>
       <h1 class="display-4 p-5 m-5 d-sm-none d-md-block d-lg-none">Bentley Consulting Group</h1>
+        <h1 class="display-5 p-2 m-2 d-block d-md-none"></h1>
     </div>
 
 
@@ -153,14 +157,20 @@
             $(document).scroll(function(){
                 var $nav = $("#mainNavbar");
                 $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-                // var $about = $("#about");
-                // $about.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-                // var $services = $("#services");
-                // $services.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-                // var $leadership = $("#leadership");
-                // $leadership.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-                // var $contact = $("#contact");
-                // $contact.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                var $logo = $("#logo");
+                $logo.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                var $about = $("#about");
+                $about.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                var $leadership = $("#leadership");
+                $leadership.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                var $services = $("#services");
+                $services.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                var $contact = $("#contact");
+                $contact.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                var $toggler = $("#navbarToggler");
+                $toggler.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                var $togglerIcon = $("#navbarIcon");
+                $togglerIcon.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
             });
         });
     </script>

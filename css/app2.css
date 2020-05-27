@@ -13,32 +13,13 @@ h2 {
     color: darkblue;
 }
 
-.odd {
-    background-color: #dddce4;
-}
 
-.imgback {
-    height: 50px;
-}
-
-.navbar.scrolled {
-    background-color: darkblue;
-    color: black;
-    transition: all,200ms;
-}
+/* NAVBAR */
 
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
     color: white;
-}
-
-#mainNavbar .nav-link {
-    color: white;
-}
-
-#mainNavbar .nav-link:hover {
-    color: lightgray;
 }
 
 #mainNavbar .navbar-brand {
@@ -50,24 +31,76 @@ h2 {
     color: lightgray;
 }
 
-#mainNavbar .scrolled{
-    font-size: 1.5rem;
-    font-weight: 100;
+#mainNavbar .nav-link {
+    color: white;
 }
 
-#mainNavbar .nav-link .scrolled{
-    color: black;
-    background-color: white;
+#mainNavbar .nav-link:hover {
+    color: lightgray;
 }
 
-#mainNavbar .nav-link:hover .scrolled{
+#mainNavbar .navbar-toggler {
+    border-color: white;
+
+}
+
+#mainNavbar .navbar-toggler:hover{
+    border-color: darkblue;
+}
+
+#mainNavbar .navbar-icon{
+    color: white;
+
+}
+
+#mainNavbar .navbar-toggler:hover{
     color: darkblue;
 }
 
-#mainNavbar .navbar-brand .scrolled{
+/* NAVBAR SCROLLED */
+
+.navbar.scrolled {
+    background-color: white;
+    transition: all,200ms;
+}
+
+#mainNavbar .nav-link.scrolled{
     color: black;
-    font-size: 1.5rem;
-    font-weight: 100;
+}
+
+#mainNavbar .nav-link:hover.scrolled {
+    color: lightgray;
+}
+
+#mainNavbar .navbar-brand.scrolled {
+    color: black;
+}
+
+#mainNavbar .navbar-brand:hover.scrolled {
+    color: darkblue;
+}
+
+#mainNavbar .navbar-toggler.scrolled {
+    border-color: black;
+}
+
+#mainNavbar .navbar-toggler:hover.scrolled {
+    border-color: darkblue;
+}
+
+#mainNavbar .navbar-icon.scrolled{
+    color: black;
+
+}
+
+#mainNavbar .navbar-toggler:hover.scrolled{
+    color: darkblue;
+}
+
+/* PAGE CONTENT */
+
+.odd {
+    background-color: #dddce4;
 }
 
 #header {
