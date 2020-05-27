@@ -1,0 +1,109 @@
+html {
+    height: 100%;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.75rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: darkblue;
+}
+
+.odd {
+    background-color: #dddce4;
+}
+
+.imgback {
+    height: 50px;
+}
+
+.navbar.scrolled {
+    background-color: darkblue;
+    color: black;
+    transition: all,200ms;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: lightgray;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .navbar-brand:hover {
+    color: lightgray;
+}
+
+#mainNavbar .scrolled{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link .scrolled{
+    color: black;
+    background-color: white;
+}
+
+#mainNavbar .nav-link:hover .scrolled{
+    color: darkblue;
+}
+
+#mainNavbar .navbar-brand .scrolled{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#header {
+    background: url("../images/bldl.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#projects {
+    background: url("../images/presentation.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#education {
+    background: url("../images/education.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#cases {
+    background: url("../images/charts.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#events {
+    background: url("../images/events.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
