@@ -8,6 +8,11 @@ p {
     line-height: 1.75rem;
 }
 
+h3 {
+    font-size: 3rem;
+    color: black;
+}
+
 h2 {
     font-size: 2rem;
     color: darkblue;
@@ -110,6 +115,14 @@ h2 {
     color: white;
 }
 
+#bcg {
+    background: url("../images/BCG logo.JPG");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
 #projects {
     background: url("../images/presentation.jpg");
     height: 100%;
@@ -134,6 +147,38 @@ h2 {
 }
 #events {
     background: url("../images/events.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#rsm {
+    background: url("../images/RSM_Logo_ggb.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#ey {
+    background: url("../images/EY logo.JPG");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#kpmg {
+    background: url("../images/KPMG logo.JPG");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#pwc {
+    background: url("../images/PWC logo.jpg");
     height: 100%;
     background-size: cover;
     background-position: center;
