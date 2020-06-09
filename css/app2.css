@@ -8,13 +8,8 @@ p {
     line-height: 1.75rem;
 }
 
-h3 {
-    font-size: 3rem;
-    color: black;
-}
-
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: darkblue;
 }
 
@@ -107,6 +102,10 @@ h2 {
     background-color: #dddce4;
 }
 
+.card {
+    border: none;
+}
+
 #header {
     background: url("../images/bldl.jpg");
     height: 100%;
@@ -154,7 +153,7 @@ h2 {
 }
 
 #rsm {
-    background: url("../images/RSM_Logo_ggb.jpg");
+    background: url("../images/RSM logo.jpg");
     height: 100%;
     background-size: cover;
     background-position: center;
