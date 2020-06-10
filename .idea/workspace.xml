@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/app2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/K.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/RSM_Logo_ggb.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +72,7 @@
       <workItem from="1590536432351" duration="32334000" />
       <workItem from="1590879068729" duration="1639000" />
       <workItem from="1590962117419" duration="92000" />
+      <workItem from="1591819043258" duration="4249000" />
     </task>
     <servers />
   </component>
