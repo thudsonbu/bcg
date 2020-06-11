@@ -20,7 +20,7 @@
     <title>BCG Home</title>
   </head>
   
-  <body style="background-color: white; margin: 0;">
+  <body class="col-12 m-0 p-0">
     <nav id="mainNavbar" class="navbar navbar-dark bg-none navbar-expand-md fixed-top">
       <a href="#" id="logo" class="navbar-brand p-2 m-2">Bentley Consulting Group</a>
       <button id="navbarToggler" class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
@@ -219,7 +219,7 @@
         </div>
     </div>
 
-    <div class="container-fluid mx-0">
+    <div class="container-fluid m-0 p-0">
         <div class="row align-items-center justify-content-center">
             <div class="col-md-7">
                 <div class="row align-items-center justify-content-center">
@@ -265,24 +265,28 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 odd p-5">
+            <div class="col-md-5 odd p-5 m-0">
                 <form>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">First Name</label>
-                        <input type="email" class="form-control" id="firstNameInput" aria-describedby="emailHelp" placeholder="Enter email">
+                        <label for="JoinFirstNameInput">First Name</label>
+                        <input type="text" class="form-control" id="JoinFirstNameInput" placeholder="First Name">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Last Name</label>
-                        <input type="email" class="form-control" id="lastNameInput" aria-describedby="emailHelp" placeholder="Enter email">
+                        <label for="JoinLastNameInput">Last Name</label>
+                        <input type="text" class="form-control" id="JoinLastNameInput" placeholder="Last Name">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <label for="JoinEmailInput">Email address</label>
+                        <input type="email" class="form-control" id="JoinEmailInput" placeholder="Enter email">
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Note</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="JoinYearInput">Organization</label>
+                        <input type="text" class="form-control" id="JoinYearInput"  placeholder="Harvard">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Note (Optional)</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                     </div>
                     <div class="form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -295,7 +299,8 @@
     </div>
 
 <!-- Footer -->
-    <div class="container-fluid odd">
+    <div class="container-fluid m-0 p-0 odd">
+        <h3 class="p-5 m-0"></h3>
         <p class="text-center">2020 Thomas Hudson All Rights Reserved.</p>
     </div>
 
