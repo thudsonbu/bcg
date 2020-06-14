@@ -1,4 +1,6 @@
-body {
+body, html {
+    height: 100%;
+    width: 100%;
     margin: 0rem;
 }
 
@@ -96,7 +98,7 @@ h2 {
     color: darkblue;
 }
 
-/* PAGE CONTENT */
+/* HOME PAGE CONTENT */
 
 .odd {
     background-color: #ebeaf2;
@@ -178,6 +180,38 @@ h2 {
 
 #pwc {
     background: url("../images/PWC logo.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#customerExperience {
+    background: url("../images/customerexperience.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#softwareDevelopment {
+    background: url("../images/softwareDevelopment.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#economicAnalysis {
+    background: url("../images/economicAnalysis.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#businessDevelopment {
+    background: url("../images/businessdevelopment.jpg");
     height: 100%;
     background-size: cover;
     background-position: center;
