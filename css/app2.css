@@ -124,34 +124,63 @@ h2 {
     color: white;
 }
 
+.shell {
+    overflow: hidden;
+}
+
 #projects {
     background: url("../images/presentation.jpg");
     height: 100%;
     background-size: cover;
     background-position: center;
     color: white;
+    transition: transform 1s;
+}
+
+#projects:hover {
+    transform: scale(1.05);
 }
 
 #education {
     background: url("../images/education.jpg");
     height: 100%;
+    width: 100%;
     background-size: cover;
     background-position: center;
     color: white;
+    transition: transform 1s;
 }
+
+#education:hover {
+    transform: scale(1.05);
+}
+
 #cases {
     background: url("../images/charts.jpg");
+    width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
     color: white;
+    transition: transform 1s;
 }
+
+#cases:hover {
+    transform: scale(1.05);
+}
+
 #events {
     background: url("../images/events.jpg");
     height: 100%;
+    width: 100%;
     background-size: cover;
     background-position: center;
     color: white;
+    transition: transform 1s;
+}
+
+#events:hover{
+    transform: scale(1.05);
 }
 
 #rsm {
